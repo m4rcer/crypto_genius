@@ -132,7 +132,7 @@
                     </div>
     
                     <div class="widget__profile__links">
-                        <div class="widget__profile__link" style="display: none;">
+                        <div class="widget__profile__link" style="display: flex;">
                             <div class="widget__profile__link__left dollars">
                                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.4211 9.16667V9.77778C10.4211 10.45 9.9 11 9.26316 11H1.15789C0.850802 11 0.556287 10.8712 0.339139 10.642C0.121992 10.4128 0 10.1019 0 9.77778V1.22222C0 0.898069 0.121992 0.587192 0.339139 0.357981C0.556287 0.128769 0.850802 0 1.15789 0H9.26316C9.9 0 10.4211 0.55 10.4211 1.22222V1.83333H5.21053C4.90343 1.83333 4.60892 1.9621 4.39177 2.19131C4.17462 2.42053 4.05263 2.7314 4.05263 3.05556V7.94444C4.05263 8.2686 4.17462 8.57947 4.39177 8.80869C4.60892 9.0379 4.90343 9.16667 5.21053 9.16667H10.4211ZM5.21053 7.94444H11V3.05556H5.21053V7.94444ZM7.52632 6.41667C7.04579 6.41667 6.65789 6.00722 6.65789 5.5C6.65789 4.99278 7.04579 4.58333 7.52632 4.58333C8.00684 4.58333 8.39474 4.99278 8.39474 5.5C8.39474 6.00722 8.00684 6.41667 7.52632 6.41667Z"/>
@@ -144,7 +144,7 @@
                                 <img src="../img/icons/profile_angle_right.svg" alt="">
                             </div>
                         </div>
-                        <div class="widget__profile__link">
+                        <div class="widget__profile__link" style="display: none">
                             <div class="widget__profile__link__left btc">
                                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.4211 9.16667V9.77778C10.4211 10.45 9.9 11 9.26316 11H1.15789C0.850802 11 0.556287 10.8712 0.339139 10.642C0.121992 10.4128 0 10.1019 0 9.77778V1.22222C0 0.898069 0.121992 0.587192 0.339139 0.357981C0.556287 0.128769 0.850802 0 1.15789 0H9.26316C9.9 0 10.4211 0.55 10.4211 1.22222V1.83333H5.21053C4.90343 1.83333 4.60892 1.9621 4.39177 2.19131C4.17462 2.42053 4.05263 2.7314 4.05263 3.05556V7.94444C4.05263 8.2686 4.17462 8.57947 4.39177 8.80869C4.60892 9.0379 4.90343 9.16667 5.21053 9.16667H10.4211ZM5.21053 7.94444H11V3.05556H5.21053V7.94444ZM7.52632 6.41667C7.04579 6.41667 6.65789 6.00722 6.65789 5.5C6.65789 4.99278 7.04579 4.58333 7.52632 4.58333C8.00684 4.58333 8.39474 4.99278 8.39474 5.5C8.39474 6.00722 8.00684 6.41667 7.52632 6.41667Z"/>
@@ -194,6 +194,18 @@
                             <div class="widget__profile__link__right">
                                 RU
                                 <img src="../img/icons/profile_angle_right.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="widget__profile__link">
+                            <div class="widget__profile__link__left">
+                                <img src="../img/icons/dark_theme.svg" alt="">
+                                Dark theme
+                            </div>
+                            <div class="widget__profile__link__right">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                  </label>
                             </div>
                         </div>
                         <div class="widget__profile__link exit">
@@ -760,7 +772,7 @@
                     </div>
     
                     <div class="tablet__widget__profile__links">
-                        <div class="tablet__widget__profile__link" style="display: none;">
+                        <div class="widget__profile__link">
                             <div class="widget__profile__link__left dollars">
                                 <svg width="15" height="15" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.4211 9.16667V9.77778C10.4211 10.45 9.9 11 9.26316 11H1.15789C0.850802 11 0.556287 10.8712 0.339139 10.642C0.121992 10.4128 0 10.1019 0 9.77778V1.22222C0 0.898069 0.121992 0.587192 0.339139 0.357981C0.556287 0.128769 0.850802 0 1.15789 0H9.26316C9.9 0 10.4211 0.55 10.4211 1.22222V1.83333H5.21053C4.90343 1.83333 4.60892 1.9621 4.39177 2.19131C4.17462 2.42053 4.05263 2.7314 4.05263 3.05556V7.94444C4.05263 8.2686 4.17462 8.57947 4.39177 8.80869C4.60892 9.0379 4.90343 9.16667 5.21053 9.16667H10.4211ZM5.21053 7.94444H11V3.05556H5.21053V7.94444ZM7.52632 6.41667C7.04579 6.41667 6.65789 6.00722 6.65789 5.5C6.65789 4.99278 7.04579 4.58333 7.52632 4.58333C8.00684 4.58333 8.39474 4.99278 8.39474 5.5C8.39474 6.00722 8.00684 6.41667 7.52632 6.41667Z"/>
@@ -772,7 +784,7 @@
                                 <img src="../img/icons/profile_angle_right.svg" alt="">
                             </div>
                         </div>
-                        <div class="widget__profile__link">
+                        <div class="widget__profile__link" style="display: none;">
                             <div class="widget__profile__link__left btc">
                                 <svg width="15" height="15" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.4211 9.16667V9.77778C10.4211 10.45 9.9 11 9.26316 11H1.15789C0.850802 11 0.556287 10.8712 0.339139 10.642C0.121992 10.4128 0 10.1019 0 9.77778V1.22222C0 0.898069 0.121992 0.587192 0.339139 0.357981C0.556287 0.128769 0.850802 0 1.15789 0H9.26316C9.9 0 10.4211 0.55 10.4211 1.22222V1.83333H5.21053C4.90343 1.83333 4.60892 1.9621 4.39177 2.19131C4.17462 2.42053 4.05263 2.7314 4.05263 3.05556V7.94444C4.05263 8.2686 4.17462 8.57947 4.39177 8.80869C4.60892 9.0379 4.90343 9.16667 5.21053 9.16667H10.4211ZM5.21053 7.94444H11V3.05556H5.21053V7.94444ZM7.52632 6.41667C7.04579 6.41667 6.65789 6.00722 6.65789 5.5C6.65789 4.99278 7.04579 4.58333 7.52632 4.58333C8.00684 4.58333 8.39474 4.99278 8.39474 5.5C8.39474 6.00722 8.00684 6.41667 7.52632 6.41667Z"/>
@@ -822,6 +834,18 @@
                             <div class="widget__profile__link__right">
                                 RU
                                 <img src="../img/icons/profile_angle_right.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="widget__profile__link">
+                            <div class="widget__profile__link__left">
+                                <img src="../img/icons/dark_theme.svg" alt="">
+                                Dark theme
+                            </div>
+                            <div class="widget__profile__link__right">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                  </label>
                             </div>
                         </div>
                         <div class="widget__profile__link exit">

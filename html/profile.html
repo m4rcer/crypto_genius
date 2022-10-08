@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="profile--html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;750;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Payments</title>
+    <title>Profile</title>
 </head>
 <body>
-    <div class="payments">
+    <div class="profile">
         <div class="widget">
             <div class="widget__logo">
                 <div class="widget__logo__img">
@@ -868,13 +868,770 @@
             </div>
         </div>
 
-        <main class="payments__content">
-            <div class="logs__header">
-                <div class="logs__title">Payments</div>
-                <div class="logs__date">Create date: 01.09.2022</div>
+        <main class="profile__content">
+            <div class="profile__top">
+                <div class="profile__left">
+                    <div class="profile__pie">
+                        <div class="pie animate pie--profile" style="--p:80;--c:#246CF9"> 
+                            <div class="profile__icon">
+                                <img src="../img/profile_icon_big.png" alt="">
+                                <div class="profile__icon__change">
+                                    <img src="../img/icons/camera.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile__right">
+                    <div class="profile__right__top">
+                        <div class="profile__about">
+                            <div class="profile__about__line">
+                                <div class="profile__name">Adam Simpson</div>
+                                <div class="profile__about__settings">
+                                    <img src="../img/icons/profile__settings.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="team__date">
+                                <img src="../img/icons/star_filled.svg" alt="">
+                                1st place in top
+                            </div>
+                        </div>
+
+                        <div class="profile__about__balance">
+                            <div class="profile__about__balance__text" style="display: block;">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.4211 9.16667V9.77778C10.4211 10.45 9.9 11 9.26316 11H1.15789C0.850802 11 0.556287 10.8712 0.339139 10.642C0.121992 10.4128 0 10.1019 0 9.77778V1.22222C0 0.898069 0.121992 0.587192 0.339139 0.357981C0.556287 0.128769 0.850802 0 1.15789 0H9.26316C9.9 0 10.4211 0.55 10.4211 1.22222V1.83333H5.21053C4.90343 1.83333 4.60892 1.9621 4.39177 2.19131C4.17462 2.42053 4.05263 2.7314 4.05263 3.05556V7.94444C4.05263 8.2686 4.17462 8.57947 4.39177 8.80869C4.60892 9.0379 4.90343 9.16667 5.21053 9.16667H10.4211ZM5.21053 7.94444H11V3.05556H5.21053V7.94444ZM7.52632 6.41667C7.04579 6.41667 6.65789 6.00722 6.65789 5.5C6.65789 4.99278 7.04579 4.58333 7.52632 4.58333C8.00684 4.58333 8.39474 4.99278 8.39474 5.5C8.39474 6.00722 8.00684 6.41667 7.52632 6.41667Z"/>
+                                </svg>
+                                $ 130 000
+                            </div>
+                            <div class="profile__about__balance__text
+                            profile__about__balance__text--btc" style="display: none;">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.4211 9.16667V9.77778C10.4211 10.45 9.9 11 9.26316 11H1.15789C0.850802 11 0.556287 10.8712 0.339139 10.642C0.121992 10.4128 0 10.1019 0 9.77778V1.22222C0 0.898069 0.121992 0.587192 0.339139 0.357981C0.556287 0.128769 0.850802 0 1.15789 0H9.26316C9.9 0 10.4211 0.55 10.4211 1.22222V1.83333H5.21053C4.90343 1.83333 4.60892 1.9621 4.39177 2.19131C4.17462 2.42053 4.05263 2.7314 4.05263 3.05556V7.94444C4.05263 8.2686 4.17462 8.57947 4.39177 8.80869C4.60892 9.0379 4.90343 9.16667 5.21053 9.16667H10.4211ZM5.21053 7.94444H11V3.05556H5.21053V7.94444ZM7.52632 6.41667C7.04579 6.41667 6.65789 6.00722 6.65789 5.5C6.65789 4.99278 7.04579 4.58333 7.52632 4.58333C8.00684 4.58333 8.39474 4.99278 8.39474 5.5C8.39474 6.00722 8.00684 6.41667 7.52632 6.41667Z"/>
+                                </svg>
+                                0.0075 BTC
+                            </div>
+                            <div class="profile__about__balance__exit">
+                                <img src="../img/icons/profile_about_exit.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile__info">
+                        <div class="profile__info__inner">
+                            <div class="profile__info__item">
+                                <div class="profile__info__item__top">Rang</div>
+                                <div class="profile__info__item__bottom">User</div>
+                            </div>
+                            <div class="profile__info__item">
+                                <div class="profile__info__item__top">Team</div>
+                                <div class="profile__info__item__bottom">Crypto Genius</div>
+                            </div>
+                            <div class="profile__info__item">
+                                <div class="profile__info__item__top">Last profit</div>
+                                <div class="profile__info__item__bottom">01.09.22</div>
+                            </div>
+                            <div class="profile__info__item">
+                                <div class="profile__info__item__top">Total logs</div>
+                                <div class="profile__info__item__bottom">20 234</div>
+                            </div>
+                            <div class="profile__info__item">
+                                <div class="profile__info__item__top">Wallet</div>
+                                <div class="profile__info__item__bottom">20 234</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="logs__list__wrapper">
+            <div class="profile__balances prof">
+                <div class="statistics__balance
+                statistics__balance--profile">
+                    <div class="statistics__balance__left">
+                        <div class="statistics__balance__text">Total today</div>
+                        <div class="statistics__balance__dollars">$ 3,876.43</div>
+                    </div>
+                    <div class="statistics__balance__right">
+                        <div class="statistics__balance__pie statistics__balance__pie--profile">
+                            <div class="pie animate" style="--p:60;--c:#246CF9">14</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistics__balance
+                statistics__balance--profile">
+                    <div class="statistics__balance__left">
+                        <div class="statistics__balance__text">Current month</div>
+                        <div class="statistics__balance__dollars">$ 3,876.43</div>
+                    </div>
+                    <div class="statistics__balance__right">
+                        <div class="statistics__balance__pie statistics__balance__pie--profile">
+                            <div class="pie animate" style="--p:60;--c:#246CF9">93</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistics__balance
+                statistics__balance--profile">
+                    <div class="statistics__balance__left">
+                        <div class="statistics__balance__text">Total income</div>
+                        <div class="statistics__balance__dollars">$ 3,876.430</div>
+                    </div>
+                    <div class="statistics__balance__right">
+                        <div class="statistics__balance__pie statistics__balance__pie--profile">
+                            <div class="pie animate" style="--p:60;--c:#246CF9">192</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="statistics__balances__mobile prof">
+                <div class="statistics__balances__mobile__item prof">
+                    <div class="statistics__balances__mobile__item__title prof">
+                        Total today
+                    </div>
+
+                    <div class="statistics__balances__mobile__item__pie prof">
+                        <div class="pie animate pie--balance--mobile prof" style="--p:60;--c:#246CF9">$ 3890</div>
+                    </div>
+                </div>
+                <div class="statistics__balances__mobile__item prof">
+                    <div class="statistics__balances__mobile__item__title prof">
+                        Current month
+                    </div>
+
+                    <div class="statistics__balances__mobile__item__pie prof">
+                        <div class="pie animate pie--balance--mobile prof" style="--p:60;--c:#246CF9">$ 3890</div>
+                    </div>
+                </div>
+                <div class="statistics__balances__mobile__item prof">
+                    <div class="statistics__balances__mobile__item__title prof">
+                        Total incomes
+                    </div>
+
+                    <div class="statistics__balances__mobile__item__pie prof">
+                        <div class="pie animate pie--balance--mobile prof" style="--p:60;--c:#246CF9">$ 3890</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team__tables__titles prof">
+                <div class="team__table__title prof active">Domains</div>
+                <div class="team__table__title prof">Payments</div>
+            </div>
+            
+            <!-- Domain -->
+            <div class="logs__list__wrapper" style="display: none;">
+                <div class="logs__list__wrapper__inner">
+                    <div class="logs__filter">
+                        <div class="logs__filter__refresh">
+                            <img src="../img/icons/refresh.svg" alt="">
+                        </div>
+                        <div class="logs__filter__angles">
+                            <div class="logs__filter__angles__left">
+                                <div class="logs__filter__angles__item">
+                                    <img src="../img/icons/filter__angel_1.svg" alt="">
+                                </div>
+                                <div class="logs__filter__angles__item">
+                                    <img src="../img/icons/filter__angle_2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="logs__filter__angles__right">
+                                <div class="logs__filter__angles__item rotate">
+                                    <img src="../img/icons/filter__angle_2.svg" alt="">
+                                </div>
+                                <div class="logs__filter__angles__item rotate">
+                                    <img src="../img/icons/filter__angel_1.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logs__filter__search">
+                            <input type="search" class="logs__filter__search__input" placeholder="Type here...">
+                            <div class="logs__filter__search__btn">
+                                <img src="../img/icons/search.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="logs__filter__pages">
+                            Показать
+                            <div class="logs__filter__select">
+                                <select name="" id="">
+                                    <option value="">10</option>
+                                    <option value="">20</option>
+                                    <option value="">30</option>
+                                    <option value="">40</option>
+                                </select>
+                            </div>
+                            <img src="../img/icons/double_angle.svg" alt="">
+                        </div>
+                        <div class="logs__filter__page">
+                            Стр <b>1</b> из <b>2</b>
+                        </div>
+                        <div class="logs__filter__grab">
+                            <img src="../img/icons/grab.svg" alt="">
+                        </div>
+                        <div class="logs__filter__upload">
+                            <img src="../img/icons/add.svg" alt="">
+                        </div>
+                        <div class="logs__filter__settings">
+                            <img src="../img/icons/filter_settings.svg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="web__list web__list--team">
+                    <div class="web__list__inner web__list__inner--team">
+                        <div class="web__list__header">
+                            <div class="web__list__header__item checkbox">
+                            </div>
+                            <div class="web__list__header__item icon">
+                            </div>
+                            <div class="web__list__header__item domain">
+                                Domain
+                                <img src="../img/icons/double_angle.svg" alt="">
+                            </div>
+                            <div class="web__list__header__item status">
+                                Status
+                                <img src="../img/icons/double_angle.svg" alt="">
+                            </div>
+                            <div class="web__list__header__item service">
+                                Service
+                                <img src="../img/icons/double_angle.svg" alt="">
+                            </div>
+                            <div class="web__list__header__item cloaca">
+                                Cloaca
+                                <img src="../img/icons/double_angle.svg" alt="">
+                            </div>
+                            <div class="web__list__header__item transitions">
+                                Transitions
+                                <img src="../img/icons/double_angle.svg" alt="">
+                            </div>
+                        </div>
+    
+                        <div class="web__list__content">
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__share.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item active">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox" checked>
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status red">
+                                    Disabled
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item
+                            web__list__item--light">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status green">
+                                    Active
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                            <div class="web__list__item">
+                                <div class="web__list__item__text checkbox">
+                                    <div class="modal__request__agreement table">
+                                        <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
+                                        <label for="introCheckbox" class="modal__request__agreement__text">
+                                        </label>    
+                                    </div>
+                                </div>
+                                <div class="web__list__item__text icon">
+                                    <img src="../img/icons/web__team.svg" alt="">
+                                </div>
+                                <div class="web__list__item__text domain">
+                                    behance.net
+                                </div>
+                                <div class="web__list__item__text status yellow">
+                                    DNS
+                                </div>
+                                <div class="web__list__item__text service">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text cloaca">
+                                    Value
+                                </div>
+                                <div class="web__list__item__text transitions">
+                                    16
+                                </div>
+                                <div class="web__list__item__button">
+                                    <svg width="16" height="16" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1737 5.52352C14.1582 5.4539 14.1278 5.38841 14.0847 5.33149C14.0416 5.27456 13.9867 5.22753 13.9238 5.19356L12.437 4.37178C12.3573 4.21072 12.2675 4.05477 12.1683 3.90485L12.1996 2.21148C12.2001 2.14045 12.186 2.07007 12.1581 2.00473C12.1301 1.93939 12.089 1.88049 12.0371 1.83171C11.2968 1.16281 10.4213 0.659696 9.46955 0.356234C9.4012 0.334996 9.32911 0.328453 9.25803 0.337038C9.18695 0.345624 9.11852 0.369142 9.05724 0.40604L7.60164 1.27763C7.42047 1.2714 7.24555 1.2714 7.06438 1.27763L5.60878 0.40604C5.5475 0.369142 5.47906 0.345624 5.40799 0.337038C5.33691 0.328453 5.26482 0.334996 5.19647 0.356234C4.24343 0.659927 3.36756 1.16538 2.62887 1.83794C2.57661 1.88504 2.53507 1.94274 2.50705 2.00717C2.47903 2.07161 2.46519 2.14127 2.46644 2.21148L2.49768 3.90485C2.39772 4.05427 2.31026 4.20991 2.2228 4.37178L0.735967 5.19356C0.673946 5.22788 0.620077 5.27512 0.578033 5.33206C0.535988 5.389 0.506755 5.45431 0.492326 5.52352C0.279902 6.49579 0.279902 7.50222 0.492326 8.47448C0.507844 8.5441 0.538185 8.60959 0.581296 8.66652C0.624408 8.72344 0.679285 8.77048 0.742214 8.80444L2.22905 9.62623C2.30875 9.78729 2.39847 9.94323 2.49768 10.0932L2.46644 11.7865C2.46587 11.8576 2.48 11.9279 2.50795 11.9933C2.53589 12.0586 2.57706 12.1175 2.62887 12.1663C3.36918 12.8352 4.24469 13.3383 5.19647 13.6418C5.26482 13.663 5.33691 13.6696 5.40799 13.661C5.47906 13.6524 5.5475 13.6289 5.60878 13.592L7.06438 12.7204H7.60164L9.06348 13.592C9.13947 13.6418 9.22867 13.6678 9.31962 13.6667C9.37043 13.6645 9.42078 13.6561 9.46955 13.6418C10.4226 13.3381 11.2985 12.8326 12.0371 12.1601C12.0894 12.113 12.1309 12.0553 12.159 11.9908C12.187 11.9264 12.2008 11.8567 12.1996 11.7865L12.1683 10.0932C12.2683 9.94373 12.3558 9.78809 12.4432 9.62623L13.93 8.80444C13.9921 8.77012 14.0459 8.72289 14.088 8.66594C14.13 8.609 14.1593 8.5437 14.1737 8.47448C14.3861 7.50222 14.3861 6.49579 14.1737 5.52352ZM7.33301 9.73829C6.78935 9.73829 6.25791 9.57763 5.80587 9.27664C5.35384 8.97564 5.00153 8.54782 4.79348 8.04728C4.58543 7.54674 4.531 6.99596 4.63706 6.46459C4.74312 5.93322 5.00491 5.44513 5.38934 5.06203C5.77376 4.67894 6.26354 4.41805 6.79675 4.31235C7.32996 4.20666 7.88264 4.2609 8.38492 4.46823C8.88719 4.67556 9.31649 5.02666 9.61852 5.47714C9.92056 5.92761 10.0818 6.45722 10.0818 6.999C10.0818 7.72551 9.79217 8.42225 9.27668 8.93597C8.76119 9.44969 8.06203 9.73829 7.33301 9.73829Z"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payments -->
+            <div class="logs__list__wrapper" style="display: block;">
                 <div class="logs__list__wrapper__inner">
                     <div class="logs__filter">
                         <div class="logs__filter__refresh">
@@ -929,8 +1686,8 @@
                             <img src="../img/icons/filter_settings.svg" alt="">
                         </div>
                     </div>
-                    <div class="payments__list">
-                        <div class="payments__list__inner">
+                    <div class="payments__list payments__list--team">
+                        <div class="payments__list__inner payments__list__inner--team">
                             <div class="payments__list__header">
                                 <div class="payments__list__header__item checkbox">
                                 </div>
@@ -1487,1387 +2244,294 @@
         </main>
     </div> 
 
-    <!-- Настройки таблицы -->
-    <div class="modal" style="display: none">
-        <div class="modal__dialog">
-            <div class="modal__close">
-                <img src="../img/icons/modal_close.svg" alt="">
+<!-- Modals -->
+
+<!-- Что с профитами? -->
+<div class="modal" style="display: none">
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <img src="../img/icons/modal_close.svg" alt="">
+        </div>
+        
+        <div class="modal__profits">
+            <div class="modal__profits__img">
+                <img src="../img/profits.png" alt="">
             </div>
-            
-            <div class="modal__email__import">
-                <div class="modal__email__import__title">Настройки таблицы</div>
-                
-                <div class="modal__table__line">
-                    <div class="modal__table__line__item">
-                        <label class="modal__web__label" for="country">ID</label>
-                        <div class="modal__table__input">
-                            <input type="text" placeholder="Type here...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="modal__table__line__item">
-                        <label class="modal__web__label" for="country">Status</label>
-                        <div class="modal__table__input">
-                            <input type="text" placeholder="Type here...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="modal__table__line">
-                    <div class="modal__table__line__item">
-                        <label class="modal__web__label" for="country">Seeds</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Type here...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: block;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__line__item">
-                        <label class="modal__web__label" for="country">Amount</label>
-                        <div class="modal__table__amount__range">
-                            <div class="modal__table__amount__range__item">
-                                <div class="modal__table__amount__range__item__text">$ 500</div>
-                                <div class="modal__table__amount__range__item__input">
-                                    <div class="modal__table__amount__range__item__input__track" style="height: 20%;">
-                                        <div class="modal__table__amount__range__item__input__circle"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <span> - </span>
-                            <div class="modal__table__amount__range__item">
-                                <div class="modal__table__amount__range__item__text">$ 130 500</div>
-                                <div class="modal__table__amount__range__item__input">
-                                    <div class="modal__table__amount__range__item__input__track" style="height: 90%;">
-                                        <div class="modal__table__amount__range__item__input__circle"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal__profits__title">Что с профитами?</div>
+            <div class="modal__profits__text">У вас осталось <b>7 дней</b> чтобы сделать профит, <br>
+                иначе вы будете забанены!
+            </div>
 
-                <label class="modal__web__label" for="country">Date</label>
-                <div class="modal__table__date">
-                    <span class="modal__table__date__span">
-                        10/03 09:00 PM - 10/05 05:00 AM
-                    </span>
+            <div class="modal__email__import__button">Прочитано</div>
+        </div>
+    </div>
+</div>
+
+<!-- Настройки аккаунта -->
+<div class="modal" style="display: none">
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <img src="../img/icons/modal_close.svg" alt="">
+        </div>
+        
+        <div class="modal__settings">
+            <div class="modal__settings__title">Настройки аккаунта</div>
+
+            <div class="email__theme__block">
+                <label class="modal__web__label" for="country">Имя</label>
+                <input type="text" class="modal__web__input
+                modal__web__input--settings" placeholder="Type here..."
+                value="Adam Simpson">
+            </div>
+
+            <div class="modal__parser__block">
+                <div class="modal__parser__label">Способ оплаты</div>
+                <div class="modal__web__select__wrapper">
+                    <select class="modal__parser__select" id="country">
+                        <option value="USA" style="display: none;">Выберите способ оплаты</option>
+                    </select>
+                    <div class="modal__parser__select__list show">
+                        <div class="modal__parser__select__list__item">
+                            <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.3348 6.01719C8.00085 5.66311 8.41758 5.03952 8.32023 4.00065C8.18914 2.58092 7.01445 2.10485 5.53157 1.96928L5.53128 0H4.38233L4.38201 1.91749C4.07972 1.91749 3.77156 1.92369 3.46479 1.93011L3.46454 0.000261369L2.31663 0.000149361L2.31642 1.96894C2.06764 1.97424 1.82332 1.97928 1.58477 1.97928V1.97346L0 1.97279L0.000214515 3.25283C0.000214515 3.25283 0.84869 3.23618 0.834712 3.25234C1.29992 3.25268 1.45182 3.53459 1.4955 3.77792L1.49586 6.02134V9.17261C1.47538 9.32532 1.38918 9.56933 1.0639 9.56978C1.0787 9.58337 0 9.56963 0 9.56963L0.000214515 11.001H1.49515C1.7737 11.0013 2.0474 11.0059 2.31591 11.0081L2.31692 12.9997L3.46454 13L3.46422 11.0293C3.77996 11.036 4.08472 11.0389 4.38241 11.0385L4.38208 13H5.531L5.53164 11.0118C7.46289 10.896 8.81493 10.3883 8.98303 8.49569C9.11852 6.97194 8.43127 6.29178 7.3348 6.01719ZM3.49225 3.33923C4.14024 3.33923 6.17817 3.1239 6.17845 4.53646C6.17817 5.89069 4.14088 5.73249 3.49225 5.73249V3.33923ZM3.49175 9.57948L3.49225 6.94069C4.2708 6.94047 6.71273 6.70691 6.71305 8.25949C6.71337 9.7484 4.2708 9.57889 3.49175 9.57948Z"/>
+                            </svg>
+                            Bitcoin (BTC)                                
+                        </div>
+                        <div class="modal__parser__select__list__item">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.97516 5.46254L6.5 2.93795L9.02561 5.46355L10.4947 3.99471L6.5 0L2.50631 3.99344L3.97516 5.46229M0 6.5L1.4691 5.03064L2.93795 6.5L1.46885 7.96834L0 6.5ZM3.97516 7.53721L6.5 10.0615L9.02561 7.53594L10.4955 9.00402L6.5 13L2.50631 9.00605L2.50428 9.00377L3.97516 7.53695M10.0615 6.5L11.5304 5.03115L13 6.5L11.5312 7.96885L10.0615 6.5Z"/>
+                                <path d="M7.98941 6.5L6.5 5.0083L5.0083 6.49949L6.5 7.99094L7.99043 6.50051H7.98916"/>
+                            </svg>
+                            Binance coin (BND)
+                        </div>
+                        <div class="modal__parser__select__list__item">
+                            <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.51078 6.39545C8.12198 6.39545 8.39603 6.37916 8.44902 6.3752L8.44721 6.37476C10.3224 6.29199 11.721 5.96618 11.721 5.57697C11.721 5.18777 10.322 4.86197 8.44721 4.77876V6.05115C8.39464 6.05599 8.10256 6.08021 7.51915 6.08021C7.03303 6.08021 6.6813 6.05952 6.55847 6.05071V4.77788C4.67975 4.86153 3.27756 5.18689 3.27756 5.57697C3.27756 5.96706 4.67975 6.29286 6.55847 6.3752C6.67949 6.38092 7.02466 6.39545 7.51078 6.39545Z"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0112423 5.78743L2.74638 0.0638466C2.75536 0.0445684 2.76969 0.0282838 2.78773 0.0169545C2.80577 0.00563048 2.82674 -0.000259922 2.84806 8.80083e-06H12.1529C12.1741 -5.03182e-05 12.1949 0.0059852 12.2128 0.0173844C12.2306 0.0287783 12.2448 0.0450629 12.2537 0.0642873L14.9887 5.78787C14.9992 5.80916 15.0025 5.8332 14.9982 5.85649C14.996 5.86822 14.9919 5.87945 14.9862 5.88977C14.9806 5.89995 14.9735 5.90926 14.9649 5.91731L7.57802 12.9688C7.55705 12.9888 7.52908 13 7.49999 13C7.4709 13 7.44303 12.9888 7.42205 12.9688L0.0351515 5.91687C0.0178022 5.90066 0.00614977 5.87934 0.00183403 5.85605C-0.00248171 5.83277 0.000884568 5.80872 0.0112423 5.78743ZM8.44902 3.50812V4.64712C10.5712 4.74442 12.1661 5.16356 12.1661 5.66591C12.1661 6.16827 10.5699 6.58741 8.44859 6.68471V10.3359H6.55795V6.68603C4.43185 6.58829 2.83296 6.16915 2.83296 5.66635C2.83296 5.16356 4.43185 4.74398 6.55795 4.64668V3.50812H3.94219V1.77124H11.0652V3.50812H8.44902Z"/>
+                            </svg>    
+                            Tether (USDT)
+                        </div>
+                    </div>
                     <img src="../img/icons/angle_down.svg" alt="">
                 </div>
-    
-                <div class="modal__table__line">
-                    <div class="modal__table__line__item modal__table__line__item--long">
-                        <label class="modal__web__label" for="country">Comments</label>
-                        <div class="modal__table__input">
-                            <input type="text" placeholder="Type here...">
-                            <img src="../img/icons/angle_down.svg" alt="">
+            </div>
+
+            <div class="email__theme__block">
+                <label class="modal__web__label" for="country">Вайтлист</label>
+                <div class="modal__settings__whitelist">
+                    <div class="modal__settings__whitelist__wrapper">
+                        <input type="text" class="modal__settings__whitelist__input" placeholder="Type here...">
+                        <div class="modal__settings__whitelist__button">Добавить</div>
+                    </div>
+                    <div class="modal__settings__whitelist__list">
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
+                        </div>
+                        <div class="modal__settings__whitelist__item">
+                            <div class="modal__settings__whitelist__item__left">1EHmgArzxA9iN5S5ArqVTZV63ecYG</div>
+                            <div class="modal__settings__whitelist__item__right">Delete</div>
                         </div>
                     </div>
                 </div>
-
-                <div class="modal__email__import__button">Применить фильтры</div>
             </div>
+
+            <div class="modal__email__import__button">Сохранить</div>
         </div>
     </div>
+</div>
 
-    <!-- Seeds -->
-    <div class="modal" style="display: none">
-        <div class="modal__dialog">
-            <div class="modal__close">
-                <img src="../img/icons/modal_close.svg" alt="">
+<!-- Вывод -->
+<div class="modal" style="display: none">
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <img src="../img/icons/modal_close.svg" alt="">
+        </div>
+        
+        <div class="modal__withdraw">
+            <div class="modal__settings__title">Вывод средств</div>
+
+            <div class="modal__withdraw__balance">
+                <div class="modal__withdraw__balance__text">Доступно</div>
+                <div class="modal__withdraw__balance__btc">0,0094 BTC</div>
+                <div class="modal__withdraw__balance__usd">$ 130 000</div>
             </div>
-            
-            <div class="modal__email__import">
-                <div class="modal__email__import__title">Seeds</div>
-    
-                <div class="modal__table__line">
-                    <div class="modal__table__line__item modal__table__line__item--long">
-                        <label class="modal__web__label" for="country">Wallet</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Type here..." value="Metamask">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Phantom
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__checkbox">
-                                        <div class="modal__request__agreement table">
-                                            <input type="checkbox" class="modal__request__argreement__checkbox" id="table2">
-                                            <label for="table2" class="modal__request__agreement__text">
-                                            </label>    
-                                        </div>
-                                    </div>
-                                    <div class="modal__table__list__item__text">
-                                        Metamask
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
+            <div class="modal__withdraw__limits">
+                <div class="modal__withdraw__limits__item">
+                    <div class="modal__withdraw__limits__item__left">Минимальная сумма:</div>
+                    <div class="modal__withdraw__limits__item__left">0.00000546 BTC</div>
                 </div>
-    
-                <div class="modal__table__line seeds">
-                    <div class="modal__table__line__item modal__table__line__item--long">
-                        <label class="modal__web__label" for="country">Address</label>
-                        <div class="modal__table__address__list" style="display: block;">
-                            <div class="modal__table__adress__list__inner">
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
+                <div class="modal__withdraw__limits__item">
+                    <div class="modal__withdraw__limits__item__left">Максимальная сумма:</div>
+                    <div class="modal__withdraw__limits__item__left">0.00004388 BTC </div>
+                </div>
+            </div>
+
+            <div class="email__theme__block">
+                <label class="modal__web__label" for="country">Введите сумму</label>
+                <input type="text" class="modal__withdraw__sum__input" placeholder="Type here...">
+            </div>
+
+            <div class="email__theme__block">
+                <label class="modal__web__label" for="country">Адрес кошелька</label>
+                <div class="email__theme__block">
+                    <div class="modal__web__select__wrapper
+                    modal__web__select__wrapper--service">
+                        <select class="modal__web__select" id="country" placeholder="Type here...">
+                            <option value="USA" style="display: none;">Напишите адрес внешнего BTC-кошелька или выберите...</option>
+                        </select>
+                        <div class="modal__web__select__list__service
+                        modal__web__select__list__service--withdraw
+                        ">
+                            <div class="modal__web__select__list__service__content">
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star_filled.svg" alt="">
+                                    Value
                                 </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star_filled.svg" alt="">
+                                    Value
                                 </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
                                 </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
                                 </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
                                 </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
                                 </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
-                                <div class="modal__table__address__list__item">
-                                    Ahfdsklbvflkbnalfkbnofdbnokznolkmlokcnloxknxcvbnxolvcok
-                                    <img src="../img/icons/address_copy.svg" alt="">
-                                </div>
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
+                                </div> 
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
+                                </div> 
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
+                                </div> 
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
+                                </div>  
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
+                                </div> 
+                                <div class="modal__web__select__list__service__item">
+                                    <img src="../img/icons/star.svg" alt="">
+                                    Value
+                                </div> 
                             </div>
                         </div>
-
-                        <div class="modal__table__address__list modal__table__address__list--empty" style="display: none">
-                            No adress yet...
-                        </div>
+                        <img src="../img/icons/angle_down.svg" alt="">
                     </div>
                 </div>
             </div>
+
+            <div class="modal__email__import__button">Отправить</div>
         </div>
     </div>
+</div>
 
-    <!-- Keys -->
-    <div class="modal" style="display: none">
-        <div class="modal__dialog modal__dialog--long">
-            <div class="modal__close">
-                <img src="../img/icons/modal_close.svg" alt="">
+<!-- Вывод Вы уверены?  -->
+<div class="modal" style="display: none">
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <img src="../img/icons/modal_close.svg" alt="">
+        </div>
+        
+        <div class="modal__withdraw__confirm">
+            <div class="modal__settings__title">Вы уверены?</div>
+            <div class="modal__withdraw__confirm__text">
+                Подтвердите отправку <b>0.00006 BTC</b><br>
+                по адресу <b>1EHmgArzxA9iN5S5ArqVTZV63ecYG</b>
             </div>
-            
-            <div class="modal__email__import">
-                <div class="modal__email__import__title">Keys</div>
-    
-                <div class="modal__table__keys__line">
-                    <div class="modal__table__keys__line__item domain">
-                        <label class="modal__web__label" for="country">Browser</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Type here..." value="Chrome">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__keys__line__item link">
-                        <label class="modal__web__label" for="country">Link</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Type here..." value="Behance.net">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__keys__line__item login">
-                        <label class="modal__web__label" for="country">Login</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Search...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__keys__line__item passwords">
-                        <label class="modal__web__label" for="country">Passwords</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Search...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="modal__table__keys__table">
-                    <div class="modal__table__keys__table__inner">
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text browser">Chrome(v105.0.5195.127-64, Profile: Deafult)</div>
-                            <div class="modal__table__keys__table__item__text link">https://behance.net/profile
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text login">HBKjbk jkjj
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                            <div class="modal__table__keys__table__item__text passwords">HGHBHBIUBjkjnlkjnlkj123
-                                <img src="../img/icons/address_copy.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="modal__email__import__button">Отправить</div>
+            <div class="modal__withdraw__confirm__fee">Комиссия: <b> 0.00006 BTC</b></div>
         </div>
     </div>
+</div>
 
-    <!-- Cookies -->
-    <div class="modal" style="display: none">
-        <div class="modal__dialog modal__dialog--long">
-            <div class="modal__close">
-                <img src="../img/icons/modal_close.svg" alt="">
+<!-- Техработы -->
+<div class="modal" style="display: none">
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <img src="../img/icons/modal_close.svg" alt="">
+        </div>
+        
+        <div class="modal__profits">
+            <div class="modal__works__img">
+                <img src="../img/works.png" alt="">
             </div>
-            
-            <div class="modal__email__import">
-                <div class="modal__email__import__title">Cookies</div>
-    
-                <div class="modal__table__keys__line">
-                    <div class="modal__table__keys__line__item domain-c">
-                        <label class="modal__web__label" for="country">Domain</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Search...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__keys__line__item flag">
-                        <label class="modal__web__label" for="country">Flag</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Search...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__keys__line__item deadline">
-                        <label class="modal__web__label" for="country">Deadline</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Search...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal__table__keys__line__item name">
-                        <label class="modal__web__label" for="country">Name</label>
-                        <div class="modal__table__input list">
-                            <input type="text" placeholder="Search...">
-                            <img src="../img/icons/angle_down.svg" alt="">
-                        </div>
-                        <div class="modal__table__list" style="display: none;">
-                            <div class="modal__table__list__inner">
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-                                <div class="modal__table__list__item">
-                                    <div class="modal__table__list__item__text">
-                                        <img src="../img/icons/chrome.svg" alt=""> Chrome
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="modal__table__keys__table">
-                    <div class="modal__table__keys__table__inner">
-                        <div class="modal__table__keys__table__item light active">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox" checked>
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item light">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-                        <div class="modal__table__keys__table__item">
-                            <div class="modal__table__keys__table__item__text checkbox">
-                                <div class="modal__request__agreement table">
-                                    <input type="checkbox" class="modal__request__argreement__checkbox" id="introCheckbox">
-                                    <label for="introCheckbox" class="modal__request__agreement__text">
-                                    </label>    
-                                </div>
-                            </div>
-                            <div class="modal__table__keys__table__item__text domain-c">Contacts.giigle.com
-                            </div>
-                            <div class="modal__table__keys__table__item__text flag">TRUE</div>
-                            <div class="modal__table__keys__table__item__text deadline">12345678</div>
-                            <div class="modal__table__keys__table__item__text name">OTZ</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="modal__table__keys__button">Download Cookie</div>
+            <div class="modal__profits__title">Скоро все заработает!</div>
+            <div class="modal__profits__text">На странице временно проводятся <br>
+                технические работы
             </div>
+
+            <div class="modal__email__import__button">Окей, загляну позже</div>
         </div>
     </div>
+</div>
 
-    <!-- Cookies copy -->
-    <div class="modal" style="display: none">
-        <div class="modal__dialog">
-            <div class="modal__close">
-                <img src="../img/icons/modal_close.svg" alt="">
+<!-- Страница не найдена -->
+<div class="modal" style="display: none">
+    <div class="modal__dialog">
+        <div class="modal__close">
+            <img src="../img/icons/modal_close.svg" alt="">
+        </div>
+        
+        <div class="modal__profits">
+            <div class="modal__profits__img">
+                <img src="../img/error.png" alt="">
             </div>
-            
-            <div class="modal__email__import">
-                <div class="modal__cookie__list">
-                    <div class="modal__cookie__list__inner">
-                        [{"domain":".twitter.com","expirationDate":1665343636,"httpOnly":true,"name":"external_referer","path":"/","secure":true,"value":"padhuUp37zjC78pGARM9YPaw83VS89NzQDYdROMfNbo%3D|0|8e8t2xd8A2w%3D"},{"domain":".twitter.com","expirationDate":1696420293,"httpOnly":true,"name":"twid","path":"/","secure":true,"value":"u%3D1488545072748531713"},{"domain":".twitter.com","expirationDate":1717064755,"httpOnly":true,"name":"guest_id_marketing","path":"/","secure":true,"value":"v1%3A165399275486567688"},{"domain":".twitter.com","expirationDate":1717064755,"httpOnly":true,"name":"guest_id_ads","path":"/","secure":true,"value":"v1%3A165399275486567688"},{"domain":".twitter.com","expirationDate":1717064755,"httpOnly":true,"name":"personalization_id","path":"/","secure":true,"value":"\"v1_vw26VRDKPtUIX8f60A9M9w==\""},{"domain":".twitter.com","expirationDate":1717064755,"httpOnly":true,"name":"guest_id","path":"/","secure":true,"value":"v1%3A165399275486567688"},{"domain":".twitter.com","expirationDate":1701253592,"httpOnly":true,"name":"kdt","path":"/","secure":true,"value":"8g66zor0uHqn6ZLHRTHH04FOTlS627WnliD6U0I6"},{"domain":".twitter.com","expirationDate":1811672792,"httpOnly":true,"name":"auth_token","path":"/","secure":true,"value":"143e0e3583c8288cf12b71c2c839a0dab428665a"},{"domain":".twitter.com","expirationDate":1811672792,"httpOnly":true,"name":"ct0","path":"/","secure":true,"value":"764ad58842c62db2ca8980e159c59b205387af8cd02142e98495aa0b6a294202f1b3a7191e13f68cdde3f4cb9ed79b05173595e911b3c3163492e21b55a5931ccc6e72835e5a8382297bee7aaabebb7d"},{"domain":"","expirationDate":null}]
-                    </div>
-                </div>
+
+            <div class="modal__profits__title">Произошла ошибка :(</div>
+            <div class="modal__profits__text">Произошла неизвестная ошибка, пожалуйста <br>
+                повторите ваш запрос позже
             </div>
+
+            <div class="modal__email__import__button">Закрыть</div>
         </div>
     </div>
+</div>
 </body>
 </html>
