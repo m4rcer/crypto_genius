@@ -1,0 +1,667 @@
+// main: ../style.less
+
+.modal__table__button {
+    margin-top: 1rem;
+    background: #2F353F;
+}
+
+.modal__table__date {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    background: #1F2128;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    cursor: pointer;
+
+    img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
+    }
+}
+
+.modal__table__date__span {
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.modal__table__line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    &.seeds {
+        margin-bottom: 0rem;
+    }
+}
+
+.modal__table__line__item {
+    width: 47%;
+
+    &--long {
+        width: 100%;
+    }
+}
+
+.modal__table__input {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    background: #1F2128;
+    height: 45px;
+    align-items: center;
+    padding-left: 1.33rem;
+    padding-right: 1.8rem;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+
+    input {
+        width: 100%;
+        height: 100%;
+        font-size: 0.94rem;
+        font-family: inherit;
+        background: transparent;
+        border: 0;
+        color: #fff;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: #757B8C;
+        }
+    }
+
+    
+
+    img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
+    }
+}
+
+.modal__table__list {
+    border-radius: 10px;
+    background: #1F2128;
+    height: 200px;
+    width: 100%;
+    padding-top: 2.5rem;
+    overflow: hidden;
+    position: relative;
+    top: -2rem;
+    padding-right: 0.5rem;
+    z-index: 0;
+    margin-bottom: -2rem;
+}
+
+.modal__table__list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #757B8C;
+    transition: all .2s linear;
+    
+    &:hover {
+        color: #fff;
+    }
+
+    .modal__table__list__item__checkbox {
+        margin-right: 0.5rem;
+    }
+}
+
+.modal__table__list__item__text {
+    &.green {
+        color: #03F438;
+    }
+
+    &.red {
+        color: #EB5757;
+    }
+    
+    &.yellow {
+        color: #F2C94C;
+    }
+}
+
+.modal__table__list__inner {
+    overflow: auto;
+    height: 100%;
+    padding-left: 1.33rem;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 1rem;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.sms__text.table {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.modal__email__import__button.red {
+    background: #EB5757;
+    margin-top: -1rem;
+}
+
+.modal__table__select__list__service__search {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #3C4254;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+
+    img {
+        position: absolute;
+        top: 0.6rem;
+        left: 0.7rem;
+    }
+}
+
+.modal__table__select__tags {
+    padding-left: 3rem;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+
+.email__recipient__emails__item.table {
+    min-width: 75px;
+    width: 75px;
+    position: relative;
+
+    img {
+        position: relative;
+        top: 0;
+        
+    }
+}
+
+.modal__web__select__list__service__content.table {
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 6rem;
+        border-radius: 3px;
+    }
+}
+
+.modal__table__buttons {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+}
+
+.modal__table__btn {
+    background: #246CF9;
+    width: 50%;
+    border-radius: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+    transition: all .2s linear;
+
+    &:hover {
+        font-size: 1rem;
+    }
+
+    &:first-child {
+        background: #2F353F;
+        border-radius: 0 0 0 10px;
+    }
+}
+
+.modal__table__transactions {
+    width: 100%;
+}
+
+.modal__table__transactions__inputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+    span {
+        color: #757B8C;
+    }
+}
+
+.modal__table__transactions__inputs__item {
+    background: #1F2128;
+    border-radius: 10px;
+    height: 45px;
+    width: 47%;
+    padding: 0 1.33rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__text {
+        font-size: 0.94rem;
+    }
+}
+
+.modal__table__transactions__inputs__item__range {
+    width: 140px;
+    height: 8px;
+    border-radius: 6px;
+    background: #141616;
+    cursor: pointer;
+
+    &__track {
+        position: relative;
+        width: 20%;
+        height: 100%;
+        background: #246CF9;
+        border-radius: 6px;
+    }
+
+    &__circle {
+        height: 22px;
+        width: 22px;
+        position: absolute;
+        background: #246CF9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        top: -7px;
+        right: 0;
+    }
+}
+
+.modal__table__amount__range {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+        padding-top: 1rem;
+        color: #757B8C;
+    }
+}
+
+.modal__table__amount__range__item {
+    background: #1F2128;
+    width: 45%;
+    height: 215px;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 0.66rem;
+
+}
+
+.modal__table__amount__range__item__text {
+    text-align: center;
+    font-size: 0.94rem;
+    margin-bottom: 1.5rem;
+}
+
+.modal__table__amount__range__item__input {
+    margin: 0 auto;
+    background: #141616;
+    border-radius: 6px;
+    width: 8px;
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.modal__table__amount__range__item__input__track {
+    height: 50%;
+    background: #246CF9;
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+}
+
+.modal__table__amount__range__item__input__circle {
+    background: #246CF9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.modal__table__address__list {
+    background: #1F2128;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem 0.5rem 1rem 1.33rem;
+    height: 400px;
+    overflow: hidden;
+    overflow-x: auto;
+    width: 100%;
+
+    &--empty {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        color: #757B8C;
+        font-size: 0.94rem;
+    }
+
+    &.sett {
+        height: 100%;
+    }
+}
+
+.modal__table__adress__list__inner {
+    height: 400px;
+    padding-right: 1.33rem;
+    overflow: auto;
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 1.5rem;
+    }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+
+    &--settings {
+        height: 700px;
+        overflow-x: auto;
+
+        @media @mobile {
+            height: 300px;
+        }
+    }
+}
+
+.modal__table__address__list__item {
+    color: #757B8C;
+    font-size: 0.94rem;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    img {
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+
+    &--settings {
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        padding-right: 0.5rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+
+        img {
+            display: block;
+            margin-left: 1rem;
+        }
+    }
+}
+
+.modal__table__keys__line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    @media @mobile {
+        flex-wrap: wrap;
+    }
+}
+
+.modal__table__keys__line__item {
+    &.domain {
+        width: 32%;
+    }
+
+    &.link {
+        width: 24%;
+    }
+
+    &.login {
+        width: 14%;
+    }
+
+    &.passwords {
+        width: 25%;
+    }
+
+    &.domain-c {
+        margin-left: 4.5rem;
+        width: 22%;
+
+        @media @mobile {
+            margin-left: 0;
+        }
+    }
+
+    &.flag {
+        width: 22%;
+    }
+
+    &.deadline {
+        width: 23%;
+    }
+
+    &.name {
+        width: 22%;
+    }
+
+    @media @mobile {
+        min-width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+.modal__table__keys__table {
+    padding: 1rem 0.5rem;
+    height: 470px;
+    max-width: 996px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #1F2128;
+    border-radius: 10px;
+}
+
+.modal__table__keys__table__inner {
+    width: 980px;
+    padding-right: 0.5rem;
+    overflow: auto;
+    height: 460px;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 2rem;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.modal__table__keys__table__item {
+    height: 50px;
+    color: #757B8C;
+    font-size: 0.94rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+    &.light {
+        background: #24262D;
+    }
+
+    &.active {
+        border: 1px solid #246CF9;
+        box-shadow: 0px 0px 4px rgba(36, 108, 249, 0.5);
+    }
+}
+
+.modal__table__keys__table__item__text {
+    img {
+        cursor: pointer;
+    }
+
+    &.browser {
+        width: 37%;
+    }
+
+    &.link {
+        width: 28%;
+    }
+
+    &.login {
+        width: 15%;
+    }
+
+    &.passwords {
+        width: 20%;
+    }
+
+
+
+    &.checkbox {
+        width: 5%;
+    }
+
+    &.domain-c {
+        width: 30%;
+    }
+
+    &.flag {
+        width: 22%;
+    }
+
+    &.deadline {
+        width: 25%;
+    }
+
+    &.name {
+        width: 15%;
+    }
+}
+
+.modal__table__keys__button {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 500px;
+    font-weight: 600;
+    font-size: 0.94rem;
+    text-align: center;
+    background: #246CF9;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    transition: all .2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+.modal__cookie__list {
+    background: #1F2128;
+    border-radius: 10px;
+    height: 230px;
+    margin: 0 -0.5rem;
+    margin-top: 2rem;
+    padding: 0.8rem 0;
+    padding-left: 1.33rem;
+    padding-right: 0.5rem;
+    overflow: hidden;
+}
+
+.modal__cookie__list__inner {
+    height: 230px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    font-size: 0.94rem;
+    color: #757B8C;;
+    line-height: 17px;
+    padding-bottom: 2rem;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 2rem;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}

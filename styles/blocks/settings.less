@@ -1,0 +1,137 @@
+// main: ../style.less
+
+.settings-html {
+    min-height: 1370px;
+
+    @media @mobile {
+        min-height: 1600px;
+    }
+}
+
+.settings {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.settings__content {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1050px;
+    padding: 0 1.5rem;
+}
+
+.settings__settings {
+    display: flex;
+    justify-content: space-between;
+
+    @media @mobile {
+        flex-wrap: wrap;
+    }
+}
+
+.settings__top {
+    margin-top: 3rem;
+    color: #757B8C;
+    font-size: 1.66rem;
+    font-weight: 600;
+    margin-bottom: 2.66rem;
+
+    img {
+        margin-right: 0.3rem;
+    }
+}
+
+.settings__left {
+    width: 55%;
+
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+.settings__right {
+    width: 42%;
+
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+.settings__block {
+    margin-bottom: 2rem;
+}
+
+.settings__bottom {
+    height: max-content;
+}
+
+.settings__item {
+    &:first-child {
+        margin-bottom: 2rem;
+    }
+}
+
+.setting__devices__label {
+    font-weight: 500;
+    font-size: 1.06rem;
+    margin-bottom: 2rem;
+}
+
+.settings__devices__item {
+    border: 1px solid #24262D;
+    background: #1F2128;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.33rem;
+    margin-bottom: 1.33rem;
+    position: relative;
+}
+
+.settings__devices__item__device {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.settings__devices__item__browser {
+    font-size: 11px;
+
+}
+
+.settings__devices__item__locations {
+    color: #757B8C;
+    font-size: 11px;
+}
+
+.settings__devices__close__text {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #EB5757;
+     
+    img {
+        margin-left: 1rem;
+    }
+}
+
+.settings__devices__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+
+    img {
+        transition: all .2s linear;
+    }
+
+    &:hover img {
+        transform: rotate(90deg);
+    }
+}

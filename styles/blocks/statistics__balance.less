@@ -1,0 +1,235 @@
+// main: ../style.less
+
+.statistics__balances {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+
+    @media @notebook {
+        width: 100%;
+        max-width: 730px;
+    }
+
+    @media @mobile {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    @media @mobile-sm {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.statistics__balance {
+    width: 100%;
+    max-width: 235px;
+    box-shadow: 12px 11px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    background: #1F2128;
+    height: 115px;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--profile {
+        max-width: 325px;
+        padding: 0.94rem 1.66rem;
+        height: 115px;
+
+        @media @tablet {
+            margin: 1rem;
+        }
+
+        .statistics__balance__text {
+            font-size: 0.86rem;
+            margin-bottom: 0.6rem;
+        }
+    }
+
+    @media @mobile {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    @media @mobile-sm {
+        max-width: 160px;
+        height: 200px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 1.2rem 1rem;
+
+        &:last-child {
+            margin: 0 auto;
+        }
+    }
+}
+
+.statistics__balance__left {
+    @media @mobile-sm {
+        order: 2;
+    }
+}
+
+.statistics__balance__right {
+    @media @mobile-sm {
+        justify-self: center;
+        margin: 0 auto;
+    }
+}
+
+.statistics__balance__text {
+    color: #757B8C;
+    font-weight: 600;
+    font-size: 0.86rem;
+    line-height: 1;
+    margin-bottom: 0.6rem;
+
+    @media @mobile-sm {
+        // font-size: 0.66rem;
+        // margin-bottom: 0.5rem;
+        // text-align: left;
+    }
+
+    @media @notebook {
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.statistics__balance__dollars {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+
+    @media @mobile-sm {
+        // font-size: 1.5rem;
+        // margin-bottom: 0.5rem;
+    }
+
+    @media @notebook {
+        // font-size: 1.5rem;
+        // margin-bottom: 0.5rem;
+    }
+}
+
+.statistics__balance__crypto {
+    color: #F2994A;
+    font-weight: 500;
+    font-size: 0.74rem;
+
+    @media @mobile-sm {
+        font-size: 0.5rem;
+    }
+}
+
+.statistics__balance__pie {
+    background-color: #16121E;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        height: 63px;
+        width: 63px;
+        background-color: #1C1D23;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    &--profile {
+        .pie {
+            font-size: 1.33rem;
+            font-weight: 600;
+        }
+    }
+
+    @media @mobile-sm {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.statistics__balances__mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    display: none;
+
+    @media @mobile-sm {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    &.prof {
+        margin-top: 3rem;
+    }
+}
+
+.statistics__balances__mobile__item {
+    width: 170px;
+    height: 180px;
+    background-color: #1F2128;
+    box-shadow: 12px 11px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    padding: 1.33rem 1.8rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+    &.prof {
+        width: 115px;
+        padding: 1rem;
+        height: 130px;
+    }
+}
+
+.statistics__balances__mobile__item__title {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.74rem;
+
+    &.prof {
+        font-size: 0.66rem;
+    }
+}
+
+.statistics__balances__mobile__item__pie {
+    background: #141616;
+    border-radius: 50%;
+    width: 114px;
+    height: 114px;
+    position: relative;
+
+    &:after {
+        display: block;
+        content: "";
+        width: 93px;
+        height: 93px;
+        background-color: #1F2128;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+
+    &.prof {
+        scale: 0.7;
+        left: -1rem;
+        top: -1.6rem;
+    }
+}

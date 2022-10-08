@@ -1,0 +1,75 @@
+// main: ../style.less
+
+.notification {
+    position: fixed;
+    background: rgba(47, 53, 63, 0.8);
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(12px 11px 40px rgba(0, 0, 0, 0.35));
+    border-radius: 15px;
+    width: 100%;
+    max-width: 230px;
+    padding: 1rem 1.33rem;
+    bottom: 1.5rem;
+    left: 1rem;
+    z-index: 100;
+}
+
+.notification__inner {
+    position: relative;
+}
+
+.notification__close {
+    position: absolute;
+    top: -1rem;
+    right: 0rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+
+    img {
+        height: 7px;
+        width: 7px;
+        transition: transform .3s linear;
+    }
+
+    &:hover img {
+        transform: rotate(90deg);
+    }
+}
+
+.notification__title {
+    font-size: 0.94rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.notification__time {
+    font-size: 0.55rem;
+    color: #757B8C;
+    margin-bottom: 0.5rem;
+}
+
+.notification__text {
+    color: #fff;
+    font-size: 0.66rem;
+    line-height: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.notification__button {
+    background: #246CF9;
+    border-radius: 6px;
+    width: 85px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.66rem;
+    cursor: pointer;
+    transition: all .2s linear;
+
+    &:hover {
+        scale: 1.1;
+    }
+}

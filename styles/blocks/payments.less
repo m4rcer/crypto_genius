@@ -1,0 +1,248 @@
+// main: ../style.less
+
+.payments {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.payments__content {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1050px;
+    padding: 0 1.5rem;
+}
+
+.payments__list {
+    width: 100%;
+    background: #1F2128;
+    box-shadow: 12px 11px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    max-height: 740px;
+    margin-bottom: 1.5rem;
+    padding: 0rem 0.5rem;
+    overflow: hidden;
+    overflow-x: auto;
+
+    &--team {
+        width: 1050px;
+    }
+}
+
+.payments__list__inner {
+    height: 100%;
+    width: 990px;
+
+    &--team {
+        width: 1035px;
+    }
+}
+
+.payments__list__header {
+    display: flex;
+    padding: 1rem 1.2rem;
+    font-weight: 500;
+    font-size: 0.94rem;
+}
+
+.payments__list__content {
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    height: 100%;
+    overflow: auto;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 4.7rem;
+    }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.payments__list__header__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+        margin-left: 0.3rem;
+    }
+
+    &.checkbox {
+        width: 6%;
+    }
+
+    &.id {
+        width: 9%;
+    }
+
+    &.status {
+        width: 13%;
+    }
+
+    &.amount {
+        width: 11%;
+    }
+
+    &.seed {
+        width: 11%;
+    }
+
+    &.keys {
+        width: 14%;
+    }
+
+    &.cookie {
+        width: 14%;
+    }
+
+    &.comment {
+        width: 7%;
+    }
+}
+
+.payments__list__item {
+    height: 50px;;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #757B8C;
+    display: flex;
+    border-radius: 8px;
+    padding: 0.96rem 1.2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &--light {
+        background: #24262D;
+    }
+
+    &.active {
+        border: 1px solid #246CF9;
+        filter: drop-shadow(0px 0px 3px rgba(36, 108, 249, 0.5));
+    }
+
+    &.unchecked {
+        text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+        color: #fff;
+
+        .unchecked__leadge {
+            display: block;
+        }
+    }
+
+    .unchecked__leadge {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }   
+}
+
+.payments__list__item__text {
+
+    &.checkbox {
+        width: 6%;
+    }
+
+    &.id {
+        width: 9%;
+    }
+
+    &.status {
+        width: 13%;
+        padding-left: 0.1rem;
+    }
+
+    &.amount {
+        width: 11%;
+        padding-left: 1.5rem;
+
+        &.green {
+            padding-left: 0.9rem;
+        }
+
+
+        &.red {
+            padding-left: 2rem;
+        }
+    }
+
+    &.seed {
+        width: 11%;
+        padding-left: 0.9rem;
+    }
+
+    &.keys {
+        width: 14%;
+        padding-left: 2.6rem;
+    }
+
+    &.cookie {
+        width: 14%;
+        padding-left: 0.9rem;
+    }
+
+    &.time {
+        width: 19%;
+        padding-left: 0.7rem;
+    }
+
+    &.comment {
+        width: 100%;
+        padding-left: 3rem;
+        position: relative;
+        
+    }
+
+    &.yellow {
+        color: #F2C94C;
+    }
+
+    &.red {
+        color: #EB5757;
+    }
+
+    &.green {
+        color: #219653;
+    }
+
+    text-overflow: ellipsis;
+}
+
+.payments__number {
+    border-radius: 5px;
+    background: rgba(246, 133, 27, 0.2);
+    width: fit-content;
+    padding: 0.2rem 0.44rem;
+    color: #F6851B;
+    font-size: 0.8rem;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+
+    &.yellow {
+        color: #F2C94C;
+        background: rgba(242, 201, 76, 0.2);
+    }
+
+    &.green {
+        color: #219653;
+        background: rgba(33, 150, 83, 0.2);
+    }
+
+    &.purple {
+        color: #A873FF;
+        background: rgba(124, 44, 255, 0.2);
+    }
+}

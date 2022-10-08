@@ -4,14 +4,44 @@
 
 html {
     font-size: 15px;
+    height: 100%;
+    position: relative;
+    min-height: 1020px;
+
+    @media @mobile-sm {
+        min-height: none;
+    }
 }
 
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    background-color: @black;
+    background: #1B1D24;
+    background-size: cover;
     color: @white;
+    // overflow-x: hidden;
+    height: 100%;
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 
 *,
@@ -33,3 +63,31 @@ h1, h2, h3, h4, h5, h6 {
 
 @import "blocks/container";
 @import "blocks/intro";
+@import "blocks/widget";
+@import "blocks/dashboard";
+@import "blocks/statistics__graph";
+@import "blocks/statistics__balance";
+@import "blocks/statistics__list";
+@import "blocks/pie";
+@import "blocks/donut";
+@import "blocks/locations";
+@import "blocks/statistics";
+@import "blocks/logs";
+@import "blocks/sms";
+@import "blocks/email";
+@import "blocks/payments";
+@import "blocks/modal";
+@import "blocks/modal__email";
+@import "blocks/team";
+@import "blocks/notification";
+@import "blocks/web";
+@import "blocks/modal__team";
+@import "blocks/modal__web";
+@import "blocks/modal__parser";
+@import "blocks/modal__request";
+@import "blocks/profile";
+@import "blocks/modal__profits";
+@import "blocks/modal__settings";
+@import "blocks/modal__withdraw";
+@import "blocks/modal__table";
+@import "blocks/settings";

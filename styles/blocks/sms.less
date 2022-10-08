@@ -1,0 +1,476 @@
+// main: ../style.less
+
+.sms--html {
+    min-height: 1450px;
+}
+
+.sms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.sms__content {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 1.5rem;
+}
+
+.sms__line {
+    width: 100%;
+}
+
+.sms__line__item {
+    width: 100%;
+    max-width: 435px;
+
+    &--long {
+        max-width: 670px;
+    }
+
+    @media @notebook {
+        max-width: 375px;
+    }
+
+    @media @tablet {
+        max-width: none;
+        &--margin {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.sms__line__item__title {
+    display: block;
+    font-size: 1.06rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+
+    b {
+        margin-left: 0.7rem;
+        color: #246CF9;
+        font-weight: 500;
+
+        img {
+            cursor: pointer;
+            margin-left: 0.3rem;
+        }
+    }
+}
+
+.sms__text {
+    border: 1px solid #24262D;
+    background-color: #1F2128;
+    border: 1px solid #24262D;
+    width: 100%;
+    height: 45px;
+    padding-left: 1.33rem;
+    font-size: 0.8rem;
+    color: #fff;
+    font-family: inherit;
+    border-radius: 10px;
+
+    &::placeholder {
+        font-size: 0.8rem;
+        color: #757B8C;
+        font-family: inherit;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.sms__select__wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 435px;
+
+
+    img {
+        position: absolute;
+        top: 1.3rem;
+        right: 1rem;
+    }
+
+    @media @tablet {
+        max-width: none;
+    }
+}
+
+.sms__select {
+    background-color: #1F2128;
+    border: 1px solid #24262D;
+    width: 100%;
+    max-width: 435px;
+    height: 45px;
+    padding-left: 1.33rem;
+    font-size: 0.8rem;
+    color: #757B8C;
+    font-family: inherit;
+    border-radius: 10px;
+    appearance: none;
+
+    &.show {
+        border-bottom: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    &:focus {
+        outline: none;
+    }
+    
+    option {
+        padding: 1rem;
+    }
+
+    @media @tablet {
+        max-width: none;
+    }
+}
+
+.sms__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+
+    &--wrap {
+        @media @tablet {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.sms__button {
+    height: 40px;
+    width: 100%;
+    max-width: 200px;
+    background: #246CF9;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 0.8rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: all .2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &--short {
+        max-width: 145px;
+    }
+}
+
+.sms__textarea {
+    border: 0;
+    background-color: #1F2128;
+    border: 1px solid #24262D;
+    width: 100%;
+    height: 145px;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    color: #757B8C;
+    font-family: inherit;
+    border-radius: 10px;
+    line-height: 1.5rem;
+    resize: none;
+
+    &::placeholder {
+        font-size: 0.8rem;
+        color: #757B8C;
+        font-family: inherit;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.sms__textarea__wrapper {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.sms__textarea__count {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.8rem;
+    color: #757B8C;
+    text-align: right;
+}
+
+.sms__message__bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.sms__message__rules {
+    position: relative;
+    bottom: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-decoration-line: underline;
+    color: #246CF9;
+    margin-right: 1.6rem;
+    cursor: pointer;
+
+    @media @mobile {
+        font-size: 0.6rem;
+    }
+}
+
+.sms__message {
+    margin-bottom: 3rem;
+}
+
+.sms__search {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background: #24262D;
+    border-radius: 10px;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 1.73rem;
+
+    svg {
+        position: absolute;
+        top: 0.7rem;
+        left: 1.5rem;
+    }
+}
+
+.sms__search__button {
+    background-color: #246CF9;
+    border-radius: 10px;
+    width: 125px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.2s linear;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.sms__search__input {
+    background: transparent;
+    border: 0;
+    width: 100%;
+    font-family: inherit;
+    color: #757B8C;
+    font-size: 0.8rem;
+    padding-left: 4rem;
+
+    &::placeholder {
+        font-family: inherit;
+        color: #757B8C;
+        font-size: 0.8rem;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.sms__list {
+    width: 100%;
+    background: #1F2128;
+    box-shadow: 12px 11px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    height: 330px;
+    margin-bottom: 2rem;
+    padding: 0rem 0.5rem;
+    overflow: hidden;
+    height: 100%;
+    max-height: 520px;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+.sms__list__inner {
+    height: 100%;
+    width: 880px;
+}
+
+.sms__list__header {
+    display: flex;
+    padding: 1.5rem 1.2rem;
+    font-weight: 500;
+    font-size: 0.94rem;
+}
+
+.sms__list__content {
+    height: 100%;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 4.7rem;
+    }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.sms__list__header__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+        margin-left: 0.333rem;
+    }
+
+    &.id {
+        width: 15%;
+    }
+
+    &.sender {
+        width: 20%;
+    }
+
+    &.sent {
+        width: 24%;
+    }
+
+    &.status {
+        width: 20%;
+    }
+}
+
+.sms__list__item {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #757B8C;
+    display: flex;
+    border-radius: 8px;
+    padding: 0.96rem 1.2rem;
+
+    &--light {
+        background: #24262D;
+    }
+
+    
+}
+
+.sms__list__item__text {
+    &.id {
+        width: 15%;
+    }
+
+    &.sender {
+        width: 20%;
+    }
+
+    &.sent {
+        padding-left: 3rem;
+        width: 25%;
+    }
+
+    &.status {
+        padding-left: 0.5rem; 
+        width: 20%;
+    }
+
+    &.time {
+        padding-left: 0.6rem;
+    }
+
+    &.green {
+        color: #03F438;
+    }
+
+    &.yellow {
+        color: #EBFF00;
+    }
+
+    &.red {
+        color: #FF0000;
+    }
+
+    text-overflow: ellipsis;
+}
+
+.sms__select__inner {
+    padding-left: 0.5rem;
+}
+
+.sms__select__list {
+    height: 200px;
+    background: #1F2128;
+    border: 1px solid #24262D;
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 0.5rem;
+    padding-top: 3.3rem;
+    z-index: -1;
+    overflow: auto;
+    display: none;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+        border-radius: 3px;
+    }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+
+    &.show {
+        display: block;
+    }
+}
+
+.sms__select__list__item {
+    color: #757B8C;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+
+    &:hover {
+        color: #fff;
+        background: #2A2C32;
+    }
+}

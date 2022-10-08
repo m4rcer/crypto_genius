@@ -1,0 +1,95 @@
+// main: ../style.less
+
+.modal__parser__title {
+    font-weight: 500;
+    font-size: 1.33rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.modal__parser__label {
+    font-weight: 500;
+    font-size: 1.06rem;
+    margin-bottom: 1rem;
+}
+
+.modal__parser__text {
+    color: #757B8C;
+    font-size: 0.94rem;
+    text-align: center;
+    margin-bottom: 2.66rem;
+}
+
+.modal__parser__block {
+    margin-bottom: 2rem;
+
+    &--border {
+        border-bottom: 1px solid #3C4254;
+    }
+}
+
+.modal__parser__id {
+    color: #757B8C;
+    font-size: 0.94rem;
+    margin-bottom: 0.8rem;
+}
+
+.modal__parser__sum {
+    margin-bottom: 0.8rem;
+    color: #757B8C;
+    font-size: 1.56rem;
+}
+
+.modal__parser__select {
+    background: #1F2128;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    color: #757B8C;
+    appearance: none;
+    padding-left: 1rem;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.modal__parser__select__list {
+    position: relative;
+    top: -5px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 0 0 10px 10px;
+    background: #1F2128;
+    display: none;
+
+    &.show {
+        display: block;
+    }
+}
+
+.modal__parser__select__list__item {
+    color: #757B8C;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &:hover {
+        color: #246CF9;
+
+        svg {
+            fill: #246CF9;
+        }
+    }
+
+    svg {
+        fill: #757B8C;
+        margin-right: 0.5rem;
+        width: 15px;
+    }
+}
+

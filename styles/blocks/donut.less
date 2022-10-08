@@ -1,0 +1,40 @@
+// main: ../style.less
+
+
+.donut {
+  width: 150px; height: 150px;
+  border-radius: 50%;
+
+  background: conic-gradient(
+      #FA2256 0deg 80deg,
+      #3C4254 80deg 120deg,
+      #24F9F9 120deg 180deg,
+    #A276FF 180deg 260deg,
+    #F9D724 260deg 300deg
+  );
+}
+
+.hole {
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  background: #1F2128;
+  display: flex;
+
+  &__text {
+      font-weight: 500;
+      font-size: 1rem;
+      text-align: center;
+      margin: auto;
+
+      b {
+        font-weight: 500;
+        font-size: 2rem;
+      }
+  }
+}
+
+.donut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

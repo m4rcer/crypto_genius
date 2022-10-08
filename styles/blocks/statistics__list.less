@@ -1,0 +1,129 @@
+// main: ../style.less
+
+
+.statistics__list {
+    width: 100%;
+    max-width: 730px;
+    background: #1F2128;
+    box-shadow: 12px 11px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    height: 330px;
+    margin-bottom: 2rem;
+    padding: 0rem 0.5rem;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.statistics__list__inner {
+    height: 100%;
+    width: 710px;
+}
+
+.statistics__list__header {
+    display: flex;
+    padding: 1rem 1.2rem;
+    font-weight: 500;
+    font-size: 0.94rem;
+    max-width: 703px;
+}
+
+.statistics__list__content {
+    overflow: auto;
+    height: 100%;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+        margin-bottom: 4.7rem;
+    }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.statistics__list__header__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+        margin-left: 0.333rem;
+    }
+
+    &.id {
+        width: 15%;
+    }
+
+    &.domain {
+        width: 16%;
+    }
+
+    &.device {
+        width: 18%;
+    }
+
+    &.ip {
+        width: 17%;
+    }
+
+    &.country {
+        width: 16%;
+    }
+
+    &.time {
+        width: 18%;
+    }
+}
+
+.statistics__list__item {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #757B8C;
+    display: flex;
+    border-radius: 8px;
+    padding: 0.96rem 1rem;
+    width: 100%;    
+
+    &--light {
+        background: #24262D;
+    }
+}
+
+.statistics__list__item__text {
+    &.id {
+        width: 15%;
+    }
+
+    &.domain {
+        width: 16%;
+    }
+
+    &.device {
+        width: 18%;
+    }
+
+    &.ip {
+        width: 17%;
+    }
+
+    &.country {
+        width: 16%;
+    }
+
+    &.time {
+        width: 18%;
+    }
+
+    text-overflow: ellipsis;
+}

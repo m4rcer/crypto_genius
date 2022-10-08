@@ -1,0 +1,107 @@
+// main: ../style.less
+
+.modal__request__title {
+    font-weight: 500;
+    font-size: 1.33rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.modal__request__label {
+    font-weight: 500;
+    font-size: 1.06rem;
+}
+
+.modal__request__text {
+    color: #ff3131;
+    text-align: center;
+    font-size: 0.94rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.modal__request__block {
+    margin-bottom: 2rem;
+}
+
+.modal__request__label__text {
+    margin-top: 0.4rem;
+    font-size: 0.94rem;
+    color: #757B8C;
+}
+
+.modal__request__input__wrapper {
+    position: relative;
+
+    img {
+        cursor: pointer;
+        position: absolute;
+        top: 0.8rem;
+        right: 1rem;
+    }
+}
+
+.email__textarea--request {
+    margin-top: 1rem;
+}
+
+.modal__request__agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &.table {
+        margin-bottom: 0;
+    }
+
+    input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+
+        &+label {
+            display: inline-flex;
+            align-items: center;
+            user-select: none;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                flex-shrink: 0;
+                flex-grow: 0;
+                border: 1px solid #fff;
+                border-radius: 4px;
+                margin-right: 0.66rem;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: 50% 50%;
+            }
+        }
+
+        &:checked+label::before {
+            border-color: #0b76ef;
+            background-image: url("../../img/icons/check.svg");
+            background-size: 80% 80%;
+          }
+    }
+}
+
+.modal__request__agreement__text {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.94rem;
+
+    b {
+        margin-left: 0.4rem;
+        color: #246CF9;
+        font-weight: 400;
+    }
+
+    &:hover b {
+        text-decoration: underline;
+    }
+}
+

@@ -1,0 +1,70 @@
+// main: ../style.less
+
+.modal {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 2rem;
+    overflow: auto;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), rgba(12, 12, 12, 0.7);
+    backdrop-filter: blur(10px);
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.modal__dialog {
+    background: #24262D;
+    border: 1px solid #282C38;  
+    width: 100%;
+    max-width: 520px;
+    margin: auto;
+    padding: 1.73rem;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+
+    &--user {
+        max-width: 500px;
+    }
+
+    &--long {
+        max-width: 1050px;
+    }
+}
+
+.modal__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+
+    img {
+        transition: transform .3s linear;
+    }
+
+    &:hover img {
+        transform: rotate(90deg);
+    }
+}

@@ -1,0 +1,91 @@
+// main: ../style.less
+
+.modal__email__import__title {
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.modal__email__import__area {
+    padding: 2rem;
+    background: #1F2128;
+    border-radius: 10px;
+    max-width: 465px;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 2rem;
+
+    &--list {
+        padding: 1rem;
+        height: 450px;
+    }
+}
+
+.modal__email__import__area__inner {
+    overflow: auto;
+    height: 100%;
+
+    scrollbar-color: #246CF9 #141518; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;  /* толщина */
+
+    &::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+    &::-webkit-scrollbar-track {
+        background: #141518;
+      }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #246CF9;
+        border-radius: 6px;
+        border: 3px solid #246CF9;
+    }
+}
+
+.modal__email__import__img {
+    margin: 0 auto;
+    margin-bottom: 1.33rem;
+    display: flex;
+    justify-content: center;
+}
+
+.modal__email__import__text {
+    font-weight: 400;
+    font-size: 0.94rem;
+    margin-bottom: 0.35rem;
+    text-align: center;
+    color: #757B8C;
+
+    &--small {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}
+
+.modal__email__import__button {
+    height: 50px;
+    background: #246CF9;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s linear;
+
+    &:hover {
+        scale: 1.05;
+    }
+
+    &.red {
+        background: #EB5757;
+    }
+}
+
+.email__recipient__emails__item--import {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
