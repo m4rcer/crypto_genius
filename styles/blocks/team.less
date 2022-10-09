@@ -16,6 +16,7 @@
     width: 100%;
     max-width: 1080px;
     padding: 0 1rem;
+    overflow-x: hidden;
 }
 
 .team__name {
@@ -111,6 +112,7 @@
     width: 216px;
     margin: 0 auto;
     margin-bottom: 2.33rem;
+    left: 1rem;
 
     &::before {
         content: "";
@@ -128,9 +130,16 @@
     }
 
     @media @mobile-sm {
-        scale: 0.5;
+        left: -1rem;
+        width: 112px;
+        height: 112px;
         top: 1rem;
-        left: -4rem;
+
+
+        &::before {
+            width: 92px;
+            height: 92px;
+        }
     }
 }
 
@@ -362,12 +371,20 @@
     font-weight: 600;
     font-size: 1.66rem;
     margin-bottom: 0.2rem;
+
+    @media @mobile-sm {
+        font-size: 1rem;
+    }
 }
 
 .team__amount__pie__btc {
     color: #757B8C;
     font-size: 0.94rem;
     text-align: center;
+
+    @media @mobile-sm {
+        font-size: 8px;
+    }
 }
 
 .team__balances__item__top {
